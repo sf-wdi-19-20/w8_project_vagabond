@@ -1,6 +1,6 @@
-![GA Logo](http://blog.generalassemb.ly/blog/wp-content/uploads/2014/03/generalassembly-open-graph.png)
+<img src="http://blog.generalassemb.ly/blog/wp-content/uploads/2014/03/generalassembly-open-graph.png" style="width: 200px; float: right;">
 
-#Project Vagabond
+#Vagabond App
 
 ##Brief
 
