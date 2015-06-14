@@ -1,4 +1,4 @@
-![GA Logo](https://lh5.googleusercontent.com/5uQ3Mwf5T3XZVzlYoR_j5v15kvoW2rmMJ2sqqhhRMv_IkZN_dHzxBHI2A030qzBFWe33Zg=w1416-h681)
+![GA Logo](http://blog.generalassemb.ly/blog/wp-content/uploads/2014/03/generalassembly-open-graph.png)
 
 #Project Vagabond
 
