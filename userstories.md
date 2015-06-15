@@ -2,7 +2,7 @@
 
 A travel-writing platform, with city-specific travel “logs”.
 
-## Sprint 1. Core Requirements -- Basic Auth & Profiles
+### Sprint 1. Core Requirements -- Basic Auth & Profiles
 
 
 A user can…
@@ -25,7 +25,7 @@ A user can…
 
 
 
-### Sprint 1. Bonuses
+#### Sprint 1. Bonuses
 A user can…
 
 * Click a “post” button in the navbar
@@ -39,7 +39,7 @@ A user can…
 
 ---
 
-Sprint 2. Core Requirements -- CRUD
+### Sprint 2. Core Requirements -- CRUD
 
 A user can…
 
@@ -55,7 +55,7 @@ A user can…
 * click “delete” on ANY individual post
     * see a pop-up that says: “Are you sure you want to delete #{ title }?”
 
-Sprint 2. Bonuses
+#### Sprint 2. Bonuses
 
 A user can…
 
@@ -67,7 +67,7 @@ A user can…
 
 ---
 
-Sprint 3. Core Requirements -- Validations & Authorization
+### Sprint 3. Core Requirements -- Validations & Authorization
 
 A user can…
 
@@ -92,7 +92,7 @@ A user can…
 * A user CANNOT sign-up with an email (or username) that is already in use.
 
 
-Sprint 3. Bonuses
+#### Sprint 3. Bonuses
 
 A user can... 
 
@@ -107,7 +107,7 @@ A user can...
 
 ---
 
-Sprint 4. Core Requirements -- N:N and Beyond
+### Sprint 4. Core Requirements -- N:N and Beyond
 
 A user can…
 
@@ -117,7 +117,7 @@ A user can…
     * see a feed of log-posts written by people they follow
 
 
-Sprint 4. Bonuses
+#### Sprint 4. Bonuses
 
 A user can…
 
