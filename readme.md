@@ -8,20 +8,22 @@ We have been commissioned to build a travel community, codenamed Vagabond for no
 
 ##Client Contract
 
-This contract consists of four core sprint and four bonus sprints. Each consisting of a set of user stories.
+The client has provided basic wireframes and user stories.
 
-[UI Flow Wireframes](wireframes.jpg)
+* [Wireframes](wireframes.jpg)
 
-[User Stories](userstories.md)
-
-[Example Trello Board](https://trello.com/b/dl7VicOR/project-vagabond) (We recommend using a Kanban-style scrum board)
+* [User Stories](userstories.md)
 
 ##Expectations
+
+This contract consists of four core sprint and four bonus sprints. Each consisting of a set of user stories.
 
 * Work in **groups of 4**
 * Always **pair** when writing code
 * **Scrum** in the mornings and regularly checkin throughout the day
 	* Clearly communicate current status & next steps
+    * Use a kanban-style scrumb board such as trello to organize tasks
+        * [Example Trello Board](https://trello.com/b/dl7VicOR/project-vagabond)
 * **Commit** changes at least once for each user story
 * Put effort into your **design**. Use:
 	* A CSS framework
