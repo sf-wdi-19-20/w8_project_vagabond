@@ -10,9 +10,11 @@ We have been commissioned to build a travel community, codenamed Vagabond for no
 
 This contract consists of four core sprint and four bonus sprints. Each consisting of a set of user stories.
 
-[UI Flow Wireframes](http://i.imgur.com/bKP70NW.jpg)
+[UI Flow Wireframes](wireframes.jpg)
 
-[Sprint Specs / Userstories](https://trello.com/b/dl7VicOR/project-vagabond)
+[User Stories](userstories.md)
+
+[Example Trello Board](https://trello.com/b/dl7VicOR/project-vagabond) (We recommend using a Kanban-style scrum board)
 
 ##Expectations
 
@@ -24,7 +26,7 @@ This contract consists of four core sprint and four bonus sprints. Each consisti
 * Put effort into your **design**. Use:
 	* A CSS framework
 	* Partials
-	* Custom CSS/Sass
+	* Custom CSS or Sass/Less
 * Consider implementing **TDD** for any significantly complex application behavior.
 * **Refactor** your code after each sprint, considering:
 	* Naming
