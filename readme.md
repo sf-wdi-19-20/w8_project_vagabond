@@ -8,7 +8,7 @@ We have been commissioned to build a travel community, codenamed Vagabond for no
 
 ##Client Contract
 
-The client has provided basic wireframes and user stories.
+The client has provided basic wireframes and user stories. In some cases, these requirements may be vague or incomplete.
 
 * [Wireframes](http://i.imgur.com/bKP70NW.jpg)
 
@@ -16,7 +16,7 @@ The client has provided basic wireframes and user stories.
 
 ##Expectations
 
-This contract consists of four core sprint and four bonus sprints. Each consisting of a set of user stories.
+This contract consists of four core sprint and four bonus sprints. Each consisting of a set of user stories. YOU MAY NOT BEGIN A NEW SPRINT/BONUSES WITHOUT CLIENT APPROVAL.
 
 * Work in **groups of 4**
 * Always **pair** when writing code
