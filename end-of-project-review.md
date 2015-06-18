@@ -67,12 +67,15 @@ Keep in mind you may need to look at the most recent / active branch (i.e. `deve
         + Are there form partials?
         + Is there a basic page layout?
         + What about the navigation bar?
+* How are third-party libraries being included? (bootstrap, jquery, google maps)
+    - Did they use a CDN? / how did they organize the scripts?
+    - Did they use the assets pipeline?
 
 ####Finally:
 
 * What **gems** did the team use? (Gemfile)
 * How much **test coverage** is there? (Rspec)
 * How **dry** is the code? Are methods clearly named? Is there repetition?
+* Are there any ideas you steal? Create an issue on your own team project!
 
-
-Don't forget: Create several Github issues & fix 'em!
+Submitting Homework: Copy the link to the issue you created.
