@@ -1,136 +1,124 @@
-#Vagabond
+#Vagabond User Stories
 
 A travel-writing platform, with city-specific travel “logs”.
 
-### Sprint 1. (Basic Auth & Profiles)
+##Sprint 1: Basic Auth & Profiles
+
+A user should be able to ...
+
+1.  go to “/” and see a basic splash page and see...
+    * the name of the website, and
+    * links to “login” and “signup”
+1. sign up for an account
+1. log in to their account if they already have one
+1. be redirected to their public profile view after logging in
+1. on their public profile, see their name, the current city they have set in their profile, and their join date
+1. see the site header on every page, and 
+    * on the header, see a link to log out if they’re logged in
+    * on the header, see links to log in and sign up if they’re logged out
+1. update their profile
+    * change their name + their current city
+1. see the titles of all the posts they’ve contributed (start with pre-seeded data)
+    * link each title to the post
+1. view individual posts with author, title, and body
 
 
-A user can…
 
-* go to “/” and see a basic splash page
-  * the name of the website
-  * and links to “login” and “signup”
-* login
-* sign-up
-* view their public profile (redirected after login)
-  * see their name, current_city, and join date
-* see the site header on every page
-  * see “logout” if they’re logged in
-  * see “login” and “sign up” if they’re logged out
-* update their profile
-  * change their name + city
-* see the titles of all the log-posts they’ve contributed (pre-seeded)
-  * link the title to the log-post
-* view individual log-posts(author, title, body)
+### Bonuses
 
+A user should be able to...
 
-
-#### Bonuses
-A user can…
-
-* Click a “post” button in the navbar
-    * redirect to the new log-post form
-    * pre-populate the form with the current cities#show page
-    * OR pre-populate the form with the user’s current_city
-* See a “default” profile-photo on their profile page
-    * add a real photo → consider using gravatar
-    * edit their photo
-    * see their photo next to individual log-posts
+1. see a “default” profile-photo on their profile page before adding their own photo
+1. update their photo (consider using Paperclip)
+1. see their photo next to their posts
 
 ---
 
-### Sprint 2. (CRUD)
+## Sprint 2: CRUD
 
-A user can…
+A user should be able to...
 
-* view the “San Francisco” homepage (“/cities/1”)
+1. view the “San Francisco” homepage (at “/cities/1”)
     * including the site-header
     * and the name of the city
-    * and an iconic photo
-* view a list of log-posts on the San Francisco Homepage
-    * sort by newest first
-    * link the title to the log-post
-* create a new log-post for San Francisco
-* click “edit” on ANY individual post, and be redirected to the edit form
-* click “delete” on ANY individual post
+    * and an iconic photo from SF
+1. view a list of posts on the San Francisco Homepage
+    * sorted by newest first
+    * link the title to the post
+1. use a “post” button on the San Francisco city page to pull up the new post form
+1. create a new log-post for San Francisco (hint: nested resources)
+1. click “edit” on ANY individual post, and be redirected to the edit form
+1. click “delete” on ANY individual post, then
     * see a pop-up that says: “Are you sure you want to delete #{ title }?”
+    * if the user confirms, delete the post
 
-#### Bonuses
+### Bonuses
 
-A user can…
+A user should be able to...
 
-* on a city homepage...
-    * see titles truncated to 100 characters max
-    * see log-post bodies truncated to 1000 characters max
+1. visit city homepages through pretty urls, like “cities/san-francisco”...
+1. visit user profile pages through pretty urls, like "users/jessica"...
+1. on a city's homepage,
+    * see post bodies truncated to 1000 characters max, with a link to view more
     * see only the 10 newest posts
     * see a relative published-date, e.g. “2 days ago”
 
 ---
 
-### Sprint 3. (Validations & Authorization)
+## Sprint 3: Validations & Authorization
 
-A user can…
+1. A user should be able to...   
+    * view home pages for “London” and “Gibraltar” posts
+    * view all vagabond cities as markers/pins on a map on the site's main page
+    * click on a pin on the main page map and be redirected to the corresponding city page
+    * verify that a new post they create is successfully published on the correct city homepage
 
-* view the “London” homepage
-* view the “Gibraltar” homepage
-* view a list of all cities
-* see a google map centered on the correct city for a given homepage
-* select either “London” or “Gibraltar” or “San Francisco” when they create a log-post (use a dropdown menu)
-* verify that their log-post is published on the correct homepage
-* A user MUST be logged in to:
-    * see ANYTHING other than the splash page / login / signup
-    * create/update/destroy resources
-    * and may only edit/delete their OWN posts
-* view an error message when form validations fail:
-    * A title must be between 1 and 200 characters
-    * Body must not be empty
-    * City must not be empty
-* A malicious user CANNOT save invalid log-post data to the database
+1. A user CANNOT save invalid post data to the database, according to the following rules:
     * A title must be between 1 and 200 characters
     * Body must not be empty
     * City must already exist in the database
-* A user CANNOT sign-up with an email (or username) that is already in use.
+
+1. A user CANNOT sign-up with an email (or username) that is already in use.
+1. A user MUST be logged in to create/update/destroy resources.
+1. A user may only edit/delete their OWN posts.
 
 
 #### Bonuses
 
-A user can... 
-
-* view only the 10 most recent posts on the homepage (pagination)
+A user should be able to... 
+1. view an error message when form validations fail, for the following validations:
+    * A title must be between 1 and 200 characters
+    * Body must not be empty
+    * City must not be empty
+1. view only the 10 most recent posts on the homepage (pagination)
     * and a link/button to the “next” 10
     * add a link/button to the “previous” 10
-* include a geolocation in each of their log-posts
-    * see a google map on each city homepage, with the geolocations of the 10 newest posts.
-* click on a pin and be redirected to the corresponding log-post
-* see a list of the city pages they’ve contributed to, on their public profile
-    * see the number of log-posts they’ve written, next to each city name
+1. see a list of the city pages they’ve contributed to, on their public profile
+1. see the number of posts they’ve written for each city, next to the city's name in their profile
 
 ---
 
-### Sprint 4. (N:N and Beyond)
+## Sprint 4. (N:N and Beyond)
 
-A user can…
+A user should be able to...
 
-* see any city page / city index / profile --> WITHOUT being signed in
-* click “follow this writer” on another user’s profile page
-    * see people they follow listed on their public profile page
-    * see a feed of log-posts written by people they follow
+1. add tags to posts, and
+    * see a post's tags on the city page, on the author's profile page, and on the post page
+    * remove tags from posts
+
+1. comment on individual posts
+    * see the number of comments a post has on the post's view page
+    * see all of the comments they’ve left, listed on their public profile
 
 
 #### Bonuses
 
-A user can…
+A user should be able to...
 
-* visit a vanity url, like “city/san-francisco”
-* assume a “city manager” role for many cities
-    * A manager can…
-    * update/delete posts for their city(s)
-    * edit their city’s homepage
-* comment on individual log-posts
-    * see the number of comments a log-post has (homepage, profile page)
-    * see all of the comments they’ve left, listed on their public profile
-    * see comments on comments (1 level)
-        * leave comments on comments
-            * see comments on comments on comments... (n levels)
+<!--@TODO: next feasible?-->
+1. create tags at the same time as they create a new post 
+1. click “follow this writer” on another user’s profile page, and 
+    * see people they follow listed on their public profile page
+    * see a feed of posts written by people they follow
 * Sign in with OAuth for Instagram
     * See Instagram photos for a city location
