@@ -10,7 +10,7 @@ We have been commissioned to build a travel community, codenamed Vagabond for no
 
 The client has provided basic wireframes and user stories. In some cases, these requirements may be vague or incomplete.
 
-* [Wireframes](http://i.imgur.com/bKP70NW.jpg)
+* <a href="wireframes.png" target="_blank">Wireframes</a>
 
 * [User Stories](userstories.md)
 
