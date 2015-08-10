@@ -7,17 +7,6 @@
 * Create several Github Issues
     - If you have time, fork it, fix the issue, and submit a pull request!
 
-####Peer Projects
-
-Keep in mind you may need to look at the most recent / active branch (i.e. `develop`, and not necessarily `master`).
-
-1. https://github.com/danlyg/ProjectVagabond
-1. https://github.com/justinldiaz/Vagabond_app
-1. https://github.com/wdi18vagabond/Vagabond
-1. https://github.com/SpencerCornelia/VagabondApp
-1. https://github.com/smallhaxe/vagabond/tree/working
-1. https://github.com/cachrisman/Project-Vagabond/
-
 ### Instructions
 
 * Clone a project and set it up locally
