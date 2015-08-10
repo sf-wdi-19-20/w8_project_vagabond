@@ -114,8 +114,6 @@ A user should be able to...
 
 A user should be able to...
 
-<!-- @TODO: next feasible? -->
-<!-- yep, it is :) -CJ -->
 1. create tags at the same time as they create a new post 
 1. click “follow this writer” on another user’s profile page, and
   * see people they follow listed on their public profile page
