@@ -19,7 +19,7 @@ This contract consists of four core sprint and four bonus sprints. Each sprint c
 
 You will work in groups of four, and we expect you to always **pair** when writing code.
 
-During morning scrums and in smaller check-ins throughout the day, clearly communicate your current status and your next steps to your teammates. Use a kanban-style scrumb board such as trello to organize tasks (<a href="https://trello.com/b/dl7VicOR/project-vagabond" target="_blank">example trello board</a>).
+During morning scrums and in smaller check-ins throughout the day, clearly communicate your current status and your next steps to your teammates. Use a kanban-style scrumb board such as trello to organize tasks (<a href="https://trello.com/b/JPdt327u/vagabond" target="_blank">example trello board</a>).
 
 Commit changes at least once for each user story. Consider creating automated tests or even implementing **TDD** for any significantly complex application behavior.
 
