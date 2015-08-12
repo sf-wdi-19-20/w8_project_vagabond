@@ -45,3 +45,12 @@ Put effort into your **design**. Use a CSS framework (Bootstrap), partials, and 
 1. **What are the major milestones or components that need to be completed?** How can these be turned into tasks that group members can complete in pairs? Where do these milestones overlap and how those related tasks be managed?
 
 1. **What milestones are you and your group members interested in working on?** How can you effectively delegate the work into pairs so that each group member is interested, challenged, and productive?
+
+## Presentation
+
+Each group will present their project on **Friday, August 14th** starting at **9:17am**. Your group's presentation should be **5 minutes or less** and cover the following:
+
+* Quick demo of your app (1 minute)
+* Each group member should answer the following:
+  * What parts of the project did you work on?
+  * What did you learn about the process of working in a group?
